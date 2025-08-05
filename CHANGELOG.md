@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+
+
+## [1.16.3 / 5.71.3] - 2025-08-xx
+
+### Fixed
+- fixed 1.16.2 = Tray Menu Missing in Action [#4940](https://github.com/sandboxie-plus/Sandboxie/issues/4940)
+
+
+
+
+
 ## [1.16.2 / 5.71.2] - 2025-07-28
 
 ### Added
@@ -15,7 +26,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 - fixed Windows 11 24H2 build 26100.4770 causes Firefox Portable 140.0.4 / 141.0 to stop responding upon starting it sandboxed [#4920](https://github.com/sandboxie-plus/Sandboxie/issues/4920)
-- fixed leak of encrypted sandbox key during password change (backported hardened ImBox from MajorPrivacy) CVE-2025-54422 
+- FIXED SECURITY ISSUE ID-27: leak of encrypted sandbox key during password change (backported hardened ImBox from MajorPrivacy) CVE-2025-54422 (thanks love-code-yeyixiao)
 - fixed Firefox Nightly sandbox hook errors
 
 ### Removed
