@@ -953,11 +953,66 @@ Fel: %1</translation>
     </message>
 </context>
 <context>
+    <name>CCheckableComboBox</name>
+    <message>
+        <location filename="../MiscHelpers/Common/CheckableComboBox.cpp" line="12"/>
+        <source>Select Items...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CCheckableMessageBox</name>
+    <message>
+        <location filename="../MiscHelpers/Common/CheckableMessageBox.cpp" line="52"/>
+        <source>Do not ask again</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>CCleanUpJob</name>
     <message>
         <location filename="BoxJob.h" line="36"/>
         <source>Deleting Content</source>
         <translation>Raderar innehåll</translation>
+    </message>
+</context>
+<context>
+    <name>CCodeEdit</name>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="42"/>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="897"/>
+        <source>Find</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="47"/>
+        <source>FindNext</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="57"/>
+        <source>GoTo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="388"/>
+        <source>Did you mean: %1? (Press Ctrl+R to replace)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="897"/>
+        <source>F3: Find Next
++ Shift: Backward
++ Ctrl: Case Sensitively
++ Alt: Whole Words
+
+Find String:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="923"/>
+        <source>Go to Line:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1319,35 +1374,35 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
 <context>
     <name>CIniHighlighter</name>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="405"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="420"/>
         <source>Validate (Failed)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="702"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="714"/>
         <source>Added in version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="703"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1588"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="715"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1701"/>
         <source>Removed in version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="704"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="716"/>
         <source>Re-added in version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="705"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1587"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="717"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1700"/>
         <source>Renamed in version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="706"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1589"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="718"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1702"/>
         <source>Superseded by</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1376,7 +1431,7 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
         <translation type="obsolete">Mall</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1288"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1407"/>
         <source>Category</source>
         <translation type="unfinished">Kategori</translation>
     </message>
@@ -1385,24 +1440,24 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
         <translation type="obsolete">Global</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1289"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1408"/>
         <source>Context</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1290"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1409"/>
         <source>Requirements</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1464"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1606"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1577"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1719"/>
         <source>Syntax</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1465"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1602"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1578"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1715"/>
         <source>Description</source>
         <translation type="unfinished">Beskrivning</translation>
     </message>
@@ -1526,6 +1581,39 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
         <location filename="Wizards/NewBoxWizard.cpp" line="802"/>
         <source>Using a custom Sandboxie Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
         <translation>Använda ett anpassat Sandboxie-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
+    </message>
+</context>
+<context>
+    <name>CItemChooser</name>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="7"/>
+        <source>Item Chooser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="12"/>
+        <source>Select items that will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="29"/>
+        <source>Add &gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="33"/>
+        <source>&lt; Remove</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="47"/>
+        <source>Move Up</source>
+        <translation type="unfinished">Flytta upp</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="51"/>
+        <source>Move Down</source>
+        <translation type="unfinished">Flytta ner</translation>
     </message>
 </context>
 <context>
@@ -1969,12 +2057,12 @@ Notera: Uppdateringskontrollen är ofta bakom senaste GitHub-utgivningen för at
         <translation>För in program:</translation>
     </message>
     <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1471"/>
+        <location filename="Windows/OptionsWindow.cpp" line="1473"/>
         <source>Autocomplete Consent Required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1472"/>
+        <location filename="Windows/OptionsWindow.cpp" line="1474"/>
         <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
 Do you wish to enable autocomplete?</source>
@@ -2892,6 +2980,24 @@ Vänligen välj en mapp som innehåller denna fil.</translation>
     <message>
         <source>Do you really want to delete the selected local template?</source>
         <translation type="vanished">Vill du verkligen radera den valda lokala mallen?</translation>
+    </message>
+</context>
+<context>
+    <name>CPathEdit</name>
+    <message>
+        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="31"/>
+        <source>Any File (*.*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="37"/>
+        <source>Select Directory</source>
+        <translation type="unfinished">Välj katalog</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="38"/>
+        <source>Browse</source>
+        <translation type="unfinished">Bläddra</translation>
     </message>
 </context>
 <context>
@@ -6280,18 +6386,18 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>%1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2793"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2802"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2796"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2805"/>
         <source>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</source>
         <translation>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2798"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2801"/>
         <source>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</source>
         <translation>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2811"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2814"/>
         <source>Sandboxie-Plus Version: %1</source>
         <translation>Sandboxie-Plus version: %1</translation>
     </message>
@@ -6424,7 +6530,7 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">Detta supportercertifikat har utgått, vänligen &lt;a href=&quot;sbie://update/cert&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2880"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2883"/>
         <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus features will be disabled in %1 days.&lt;/font&gt;</source>
         <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus-egenskaper kommer inaktiveras om %1 dagar.&lt;/font&gt;</translation>
     </message>
@@ -6437,7 +6543,7 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;För detta bygge  kvarstår Plus-egenskaperna aktiverade.&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2884"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2887"/>
         <source>&lt;br /&gt;Plus features are no longer enabled.</source>
         <translation>&lt;br /&gt;Plus-egenskaperna är inte längre aktiverade.</translation>
     </message>
@@ -6466,22 +6572,22 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>Ange Öppen sökväg i sandlådan</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3186"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3189"/>
         <source>This does not look like a certificate. Please enter the entire certificate, not just a portion of it.</source>
         <translation>Detta ser inte ut som ett certifikat. Vänligen för in hela certifikatet, inte bara en del av det.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3203"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3206"/>
         <source>This certificate is unfortunately not valid for the current build, you need to get a new certificate or downgrade to an earlier build.</source>
         <translation>Detta certifikat är tyvärr inte giltigt för nuvarande bygge, du behöver skaffa ett nytt certifikat eller nedgradera till ett tidigare bygge.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3205"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3208"/>
         <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database.</source>
         <translation>Även fast detta certifikat har utgått, för nuvarande installerad version förblir Plus-egenskaperna aktiverade. Däremot, kommer du inte längre ha tillgång till Sandboxie-Live tjänsterna, inklusive kompatibilitetsuppdateringar och felsökningsdatabasen på nätet.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3207"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3210"/>
         <source>This certificate has unfortunately expired, you need to get a new certificate.</source>
         <translation>Detta certifikat har tyvärr utgått, du behöver skaffa ett nytt certifikat.</translation>
     </message>
@@ -6505,17 +6611,17 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>Volymen är inte ansluten</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2957"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2960"/>
         <source>&lt;b&gt;You have used %1/%2 evaluation certificates. No more free certificates can be generated.&lt;/b&gt;</source>
         <translation>&lt;b&gt;Du har använt %1/%2 evalueringscertificat. Inga fler gratis certifikat kan genereras.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2959"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2962"/>
         <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Get a free evaluation certificate&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
         <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Få ett gratis evalueringscertifikat&lt;/a&gt; och njut av alla premiumegenskaper i %1 dagar.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2890"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2893"/>
         <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;%2&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
         <oldsource>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</oldsource>
         <translation>Detta supportercertifikat kommer att&lt;font color=&apos;red&apos;&gt;utgå om %1 dag(ar)&lt;/font&gt;, vänligen &lt;a href=&quot;%2&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
@@ -6529,37 +6635,37 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">Hämtar certifikat...</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3108"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3111"/>
         <source>Contributor</source>
         <translation>Bidragsgivare</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3110"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3113"/>
         <source>Eternal</source>
         <translation>Evig</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3114"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3117"/>
         <source>Business</source>
         <translation>Företag</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3116"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3119"/>
         <source>Personal</source>
         <translation>Personlig</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3118"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3121"/>
         <source>Great Patreon</source>
         <translation>Stor patreon</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3120"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3123"/>
         <source>Patreon</source>
         <translation>Patreon</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3122"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3125"/>
         <source>Family</source>
         <translation>Familj</translation>
     </message>
@@ -6568,12 +6674,12 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">Abonnemang</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3126"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3129"/>
         <source>Evaluation</source>
         <translation>Utvärdering</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3128"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3131"/>
         <source>Type %1</source>
         <translation>Typ %1</translation>
     </message>
@@ -6582,181 +6688,181 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">Standard</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2960"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2963"/>
         <source>You can request a free %1-day evaluation certificate up to %2 times per hardware ID.</source>
         <translation>Du kan begära ett gratis %1 dags evalueringscertifikat upp till %2 gånger per hårdvaru-ID.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2925"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2928"/>
         <source>Expires in: %1 days</source>
         <oldsource>Expires: %1 Days ago</oldsource>
         <translation>Utgår om: %1 dagar</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2543"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2546"/>
         <source>Autocomplete Consent Required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2544"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2547"/>
         <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
 Do you wish to enable autocomplete?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2790"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2793"/>
         <source>Click to reveal</source>
         <translation>Klicka för att avslöja</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2791"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2794"/>
         <source>Click to hide</source>
         <oldsource>Click to hide
 Right-click to copy</oldsource>
         <translation>Klicka för att dölja</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2877"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2880"/>
         <source>This supporter certificate has expired, please &lt;a href=&quot;%1&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
         <translation>Detta suppotercertifikat har utgått, vänligen &lt;a href=&quot;%1&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2882"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2885"/>
         <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2927"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2930"/>
         <source>Expired: %1 days ago</source>
         <translation>Utgick:%1 dagar sedan</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2929"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2932"/>
         <source>; eligible Patreons can always &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;obtain an updated certificate&lt;/a&gt; from xanasoft.com</source>
         <translation>; berättigade Patreons kan alltid &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;erhålla ett uppdaterat certifikat&lt;/a&gt; från xanasoft.com</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2941"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
         <source>Options: %1</source>
         <translation>Alternativ: %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2947"/>
         <source>Security/Privacy Enhanced &amp; App Boxes (SBox): %1</source>
         <translation>Säkerhets-/Integritetsutökad &amp; Applådor (SLåda): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2945"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2946"/>
         <location filename="Windows/SettingsWindow.cpp" line="2947"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2948"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2949"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2950"/>
         <source>Enabled</source>
         <translation>Aktiverad</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2945"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2946"/>
         <location filename="Windows/SettingsWindow.cpp" line="2947"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2948"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2949"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2950"/>
         <source>Disabled</source>
         <translation>Inaktiverad</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2945"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2948"/>
         <source>Encrypted Sandboxes (EBox): %1</source>
         <translation>Krypterade Sandlådor (KLåda):%1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2946"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2949"/>
         <source>Network Interception (NetI): %1</source>
         <translation>Nätverksingripande (NätI): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2947"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2950"/>
         <source>Sandboxie Desktop (Desk): %1</source>
         <translation>Sandboxie-skrivbord (Bord): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2978"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2981"/>
         <source>This does not look like a Sandboxie-Plus Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
         <translation>Detta ser inte ut som ett Sandboxie-Plus serienummer.&lt;br /&gt;Om du har försökt föra in Uppdateringsnyckeln eller Signaturen från ett certifikat som inte är korrekt, vänligen för in hela certifikatet in i textområdet ovan istället.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2985"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2988"/>
         <source>You are attempting to use a feature Upgrade-Key without having entered a pre-existing supporter certificate. Please note that this type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b) requires you to have a pre-existing valid supporter certificate; it is useless without one.&lt;br /&gt;If you want to use the advanced features, you need to obtain both a standard certificate and the feature upgrade key to unlock advanced functionality.</source>
         <oldsource>You are attempting to use a feature Upgrade-Key without having entered a preexisting supporter certificate. Please note that these type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b&gt;) require you to have a preexisting valid supporter certificate, it is useless without one.&lt;br /&gt;If you want to use the advanced features you need to obtain booth a standard certificate and the feature upgrade key to unlock advanced functionality.</oldsource>
         <translation>Du försöker att använda en uppgraderingsnyckel för egenskaper utan att ha fört in ett förexisterande supportercertifikat. Vänligen notera att denna typ av nyckel (&lt;b&gt;som det tydligt är uppgivet i fet text på webbsidan&lt;/b) kräver att du har ett förexisterande giltigt supportercertifikat; det är oanvändbart utan ett.&lt;br /&gt;Om du vill använda de avancerade egenskaperna, behöver du skaffa både ett standardcertifikat och uppgraderingsnyckeln för egenskaper för att låsa upp avancerad funktionalitet.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2991"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2994"/>
         <source>You are attempting to use a Renew-Key without having entered a pre-existing supporter certificate. Please note that this type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b) requires you to have a pre-existing valid supporter certificate; it is useless without one.</source>
         <oldsource>You are attempting to use a Renew-Key without having a preexisting supporter certificate. Please note that these type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b&gt;) require you to have a preexisting supporter certificate, it is useless without one.</oldsource>
         <translation>Du försöker att använda en Förnyelsenyckel utan att ha fört in ett förexisterande supportercertifikat. Vänligen notera att denna typ av nyckel (&lt;b&gt;som är tydligt uppgivet i fet text på hemsidan&lt;/b) kräver att du har ett förexisterande giltigt supportercertifikat; det är oanvändbart utan ett.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2996"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2999"/>
         <source>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;If you have not read the product description and obtained this key by mistake, please contact us via email (provided on our website) to resolve this issue.&lt;/u&gt;</source>
         <oldsource>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;If you have not read the product description and got this key by mistake, please contact us by email (provided on our website) to resolve this issue.&lt;/u&gt;</oldsource>
         <translation>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;Om du inte har läst produktbeskrivningen och har erhållit denna nyckel av misstag; vänligen kontakta oss via e-post (tillgänglig på vår webbsida) för att lösa denna fråga.&lt;/u&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3011"/>
-        <location filename="Windows/SettingsWindow.cpp" line="3039"/>
-        <location filename="Windows/SettingsWindow.cpp" line="3268"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3014"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3042"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3271"/>
         <source>Retrieving certificate...</source>
         <translation>Hämtar certifikat...</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3027"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3030"/>
         <source>Sandboxie-Plus - Get EVALUATION Certificate</source>
         <translation>Sandboxie-Plus - Få EVALUERINGScertifikat</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3027"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3030"/>
         <source>Please enter your email address to receive a free %1-day evaluation certificate, which will be issued to %2 and locked to the current hardware.
 You can request up to %3 evaluation certificates for each unique hardware ID.</source>
         <translation>Vänligen för in din e-postadress för att motta ett gratis %1 dags evalueringscertifikat, vilket utfärdas till %2 och låst till nuvarande hårdvara.
 Du kan begära upp till %3 evalueringscertifikat för varje unikt hårdvaru-ID.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3053"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3056"/>
         <source>Error retrieving certificate: %1</source>
         <oldsource>Error retriving certificate: %1</oldsource>
         <translation>Fel vid hämtande av certifikat:%1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3053"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3056"/>
         <source>Unknown Error (probably a network issue)</source>
         <translation>Okänt fel (troligen ett nätverksfel)</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3112"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3115"/>
         <source>Developer</source>
         <translation>Utvecklare</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3124"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3127"/>
         <source>Home</source>
         <translation>Hem</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3158"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3161"/>
         <source>Advanced</source>
         <translation>Avancerad</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3160"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3163"/>
         <source>Advanced (L)</source>
         <translation>Avancerad (L)</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3162"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3165"/>
         <source>Max Level</source>
         <translation>Maxnivå</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3164"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3167"/>
         <source>Level %1</source>
         <translation>Nivå %1</translation>
     </message>
@@ -6771,29 +6877,29 @@ Du kan begära upp till %3 evalueringscertifikat för varje unikt hårdvaru-ID.<
         <translation>Supportercertifikat krävs för automatisering</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3211"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3214"/>
         <source>The evaluation certificate has been successfully applied. Enjoy your free trial!</source>
         <translation>Evalueringscertifikatet har framgångsrikt tillämpats. Njut av ditt gratisprovande!</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3214"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3217"/>
         <source>Thank you for supporting the development of Sandboxie-Plus.</source>
         <translation>Tack för att du stöder utvecklingen av Sandboxie-Plus.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3216"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3219"/>
         <source>
 This is a temporary Patreon certificate, valid for 3 months. Once it nears expiration, you can obtain a new certificate online that will be valid for the full term.</source>
         <translation>
 Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det väl  närmar sig utgående, kan du erhålla ett nytt certifikat på nätet som kommer att vara giltigt för hela perioden.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3254"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3257"/>
         <source>A mandatory security update for your Sandboxie-Plus Supporter Certificate is required. Would you like to download the updated certificate now?</source>
         <translation>En obligatoriskt säkerhetsuppdatering för ditt Sandboxie-Plus certifikat krävs. Vill du nedladda det uppdaterade certifikatet nu?</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3255"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3258"/>
         <source>Auto update in future</source>
         <translation>Autouppdatera i framtiden</translation>
     </message>
@@ -6910,7 +7016,7 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
         <translation>Vill du verkligen radera de(n) valda lokala mall(arna)(en)?</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2719"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2722"/>
         <source>%1 (Current)</source>
         <translation>%1 (Nuvarande)</translation>
     </message>
@@ -9135,6 +9241,22 @@ För att specificera en process, använd &apos;$:program.exe&apos; som sökväg.
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6041"/>
         <source>&lt;html&gt;
+    &lt;body&gt;
+        Displays detailed tooltips when hovering over settings.&lt;br&gt;
+        &lt;br&gt;
+        &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Full details (versions, syntax, description and more)&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
+        &lt;br&gt;
+        &lt;b&gt;Syntax Helpers:&lt;/b&gt;&lt;br&gt;
+        • &lt;i&gt;Pipe&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Separates alternative values&lt;br&gt;
+        • &lt;i&gt;Square brackets&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Denote optional parameters&lt;br&gt;
+        • &lt;i&gt;Parentheses&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Enclose valid options&lt;br&gt;
+        • &lt;i&gt;Angle brackets&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Indicate replaceable placeholders&lt;br&gt;
+        • &lt;i&gt;Bold values&lt;/i&gt; — Represent defaults (can be omitted)&lt;br&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</source>
+        <oldsource>&lt;html&gt;
     &lt;body style=&quot;color: #333;&quot;&gt;
         Displays detailed tooltips when hovering over settings.&lt;br&gt;
         &lt;br&gt;
@@ -9142,17 +9264,20 @@ För att specificera en process, använd &apos;$:program.exe&apos; som sökväg.
         ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Full details (versions, syntax, description and more)&lt;br&gt;
         ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
         &lt;br&gt;
-        &lt;b&gt;Syntax helpers:&lt;/b&gt;&lt;br&gt;
-        • Pipe (|) separates possible values&lt;br&gt;
-        • Square brackets ([]) indicate default value or optional values&lt;br&gt;
+        &lt;b&gt;Syntax Helpers:&lt;/b&gt;&lt;br&gt;
+        • &lt;i&gt;Pipe&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Separates alternative values&lt;br&gt;
+        • &lt;i&gt;Square brackets&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Denote optional parameters&lt;br&gt;
+        • &lt;i&gt;Parentheses&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Enclose valid options&lt;br&gt;
+        • &lt;i&gt;Angle brackets&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Indicate replaceable placeholders&lt;br&gt;
+        • &lt;i&gt;Bold values&lt;/i&gt; — Represent defaults (can be omitted)&lt;br&gt;
     &lt;/body&gt;
-&lt;/html&gt;</source>
+&lt;/html&gt;</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6124"/>
+        <location filename="Forms/OptionsWindow.ui" line="6129"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         &lt;b&gt;Auto-Completion &amp; Case Correction&lt;/b&gt;&lt;br&gt;
         • &lt;u&gt;Auto-complete&lt;/u&gt;: Suggestions popup at 3+ chars&lt;br&gt;
         &amp;nbsp;&amp;nbsp;→ Select from popup to &lt;u&gt;auto-apply&lt;/u&gt; with correct case&lt;br&gt;
@@ -9162,30 +9287,46 @@ För att specificera en process, använd &apos;$:program.exe&apos; som sökväg.
         &amp;nbsp;&amp;nbsp;→ &lt;code&gt;Ctrl+R&lt;/code&gt; prompt appears for case correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
-        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + auto-correction&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + Case-correction&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Navigation:&lt;/b&gt;&lt;br&gt;
-        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt; in popup&lt;br&gt;
-        • &lt;code&gt;Enter/Return&lt;/code&gt; to select highlighted item&lt;br&gt;
-        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force suggestions&lt;br&gt;
+        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt;: Move through popup&lt;br&gt;
+        • &lt;code&gt;Enter/Return&lt;/code&gt;: Confirm selection&lt;br&gt;
+        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force-open suggestions&lt;br&gt;
+       • &lt;code&gt;Tab&lt;/code&gt;: Apply first or confirm selection&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6146"/>
+        <location filename="Forms/OptionsWindow.ui" line="6152"/>
         <source>Complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6056"/>
+        <location filename="Forms/OptionsWindow.ui" line="6059"/>
         <source>Tooltips</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6066"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
+        <location filename="Forms/OptionsWindow.ui" line="6069"/>
+        <source>&lt;html&gt;
+    &lt;body&gt;
+        &lt;p&gt;When enabled, settings will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
+        &lt;br/&gt;
+        &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed setting (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed setting (no longer available)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future setting (unavailable)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown setting&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known setting&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known settings are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</source>
+        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
 &lt;p&gt;When enabled, key names will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
 &lt;br/&gt;
 &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
@@ -9197,11 +9338,11 @@ För att specificera en process, använd &apos;$:program.exe&apos; som sökväg.
 &lt;/table&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
+&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6081"/>
+        <location filename="Forms/OptionsWindow.ui" line="6086"/>
         <source>Validate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10316,12 +10457,12 @@ istället för &quot;*&quot;.</translation>
         <translation>Redigera ini-sektionen</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6091"/>
+        <location filename="Forms/OptionsWindow.ui" line="6096"/>
         <source>Edit ini</source>
         <translation>Redigera ini</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6104"/>
+        <location filename="Forms/OptionsWindow.ui" line="6109"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
@@ -10358,6 +10499,11 @@ istället för &quot;*&quot;.</translation>
         <location filename="Views/SbieView.cpp" line="1825"/>
         <source>Drive %1</source>
         <translation>Enhet %1</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/FlexError.h" line="21"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11598,21 +11744,23 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3118"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
+        <source>&lt;html&gt;
+    &lt;body&gt;
+        &lt;p&gt;When enabled, settings will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
+        &lt;br/&gt;
+        &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed setting (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed setting (no longer available)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future setting (unavailable)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown setting&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known setting&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known settings are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</source>
+        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
 &lt;p&gt;When enabled, key names will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed key (no longer available)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future key (unavailable)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown key&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known key&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
-        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;p&gt;When checked, INI keys are validated and highlighted according to the SbieSettings file. Uncheck to disable validation and highlighting.&lt;/p&gt;
 &lt;br/&gt;
 &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
   &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
@@ -11627,31 +11775,34 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3146"/>
+        <location filename="Forms/SettingsWindow.ui" line="3148"/>
         <source>Save</source>
         <translation>Spara</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3186"/>
+        <location filename="Forms/SettingsWindow.ui" line="3188"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         Displays detailed tooltips when hovering over settings.&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
         ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Full details (versions, syntax, description and more)&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
         &lt;br&gt;
-        &lt;b&gt;Syntax helpers:&lt;/b&gt;&lt;br&gt;
-        • Pipe (|) separates possible values&lt;br&gt;
-        • Square brackets ([]) indicate default value or optional values&lt;br&gt;
+        &lt;b&gt;Syntax Helpers:&lt;/b&gt;&lt;br&gt;
+        • &lt;i&gt;Pipe&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Separates alternative values&lt;br&gt;
+        • &lt;i&gt;Square brackets&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Denote optional parameters&lt;br&gt;
+        • &lt;i&gt;Parentheses&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Enclose valid options&lt;br&gt;
+        • &lt;i&gt;Angle brackets&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Indicate replaceable placeholders&lt;br&gt;
+        • &lt;i&gt;Bold values&lt;/i&gt; — Represent defaults (can be omitted)&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3218"/>
+        <location filename="Forms/SettingsWindow.ui" line="3223"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         &lt;b&gt;Auto-Completion &amp; Case Correction&lt;/b&gt;&lt;br&gt;
         • &lt;u&gt;Auto-complete&lt;/u&gt;: Suggestions popup at 3+ chars&lt;br&gt;
         &amp;nbsp;&amp;nbsp;→ Select from popup to &lt;u&gt;auto-apply&lt;/u&gt; with correct case&lt;br&gt;
@@ -11661,39 +11812,40 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
         &amp;nbsp;&amp;nbsp;→ &lt;code&gt;Ctrl+R&lt;/code&gt; prompt appears for case correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
-        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + auto-correction&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + Case-correction&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Navigation:&lt;/b&gt;&lt;br&gt;
-        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt; in popup&lt;br&gt;
-        • &lt;code&gt;Enter/Return&lt;/code&gt; to select highlighted item&lt;br&gt;
-        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force suggestions&lt;br&gt;
+        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt;: Move through popup&lt;br&gt;
+        • &lt;code&gt;Enter/Return&lt;/code&gt;: Confirm selection&lt;br&gt;
+        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force-open suggestions&lt;br&gt;
+       • &lt;code&gt;Tab&lt;/code&gt;: Apply first or confirm selection&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3240"/>
+        <location filename="Forms/SettingsWindow.ui" line="3246"/>
         <source>Complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3201"/>
+        <location filename="Forms/SettingsWindow.ui" line="3206"/>
         <source>Tooltips</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3153"/>
+        <location filename="Forms/SettingsWindow.ui" line="3155"/>
         <source>Edit ini</source>
         <translation>Redigera ini</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3133"/>
+        <location filename="Forms/SettingsWindow.ui" line="3135"/>
         <source>Validate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3166"/>
+        <location filename="Forms/SettingsWindow.ui" line="3168"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>

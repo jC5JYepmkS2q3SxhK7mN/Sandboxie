@@ -788,11 +788,71 @@ Fehler: %1</translation>
     </message>
 </context>
 <context>
+    <name>CCheckableComboBox</name>
+    <message>
+        <location filename="../MiscHelpers/Common/CheckableComboBox.cpp" line="12"/>
+        <source>Select Items...</source>
+        <translation>Elemente auswählen...</translation>
+    </message>
+</context>
+<context>
+    <name>CCheckableMessageBox</name>
+    <message>
+        <location filename="../MiscHelpers/Common/CheckableMessageBox.cpp" line="52"/>
+        <source>Do not ask again</source>
+        <translation>Nicht erneut fragen</translation>
+    </message>
+</context>
+<context>
     <name>CCleanUpJob</name>
     <message>
         <location filename="BoxJob.h" line="36"/>
         <source>Deleting Content</source>
         <translation>Lösche Inhalte</translation>
+    </message>
+</context>
+<context>
+    <name>CCodeEdit</name>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="42"/>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="897"/>
+        <source>Find</source>
+        <translation>Suchen</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="47"/>
+        <source>FindNext</source>
+        <translation>Weitersuchen</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="57"/>
+        <source>GoTo</source>
+        <translation>Gehe zu</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="388"/>
+        <source>Did you mean: %1? (Press Ctrl+R to replace)</source>
+        <translation>Meinten Sie: %1? (Zum Ersetzen Strg+R drücken)</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="897"/>
+        <source>F3: Find Next
++ Shift: Backward
++ Ctrl: Case Sensitively
++ Alt: Whole Words
+
+Find String:</source>
+        <translation>F3: Weitersuchen
++ Shift: Rückwärts
++ Strg: Groß-/Kleinschreibung
++ Alt: Ganze Wörter
+
+Suchen nach:</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/CodeEdit.cpp" line="923"/>
+        <source>Go to Line:</source>
+        <translation>Gehe zu Zeile:</translation>
     </message>
 </context>
 <context>
@@ -1114,62 +1174,62 @@ Sie können %USER% verwenden, um für jeden Benutzer die Sandbox in einem eigene
 <context>
     <name>CIniHighlighter</name>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="405"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="420"/>
         <source>Validate (Failed)</source>
         <translation>Validieren (fehlgeschlagen)</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="702"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="714"/>
         <source>Added in version</source>
         <translation>Hinzugefügt in Version</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="703"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1588"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="715"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1701"/>
         <source>Removed in version</source>
         <translation>Entfernt in Version</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="704"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="716"/>
         <source>Re-added in version</source>
         <translation>Wieder hinzugefügt in Version</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="705"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1587"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="717"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1700"/>
         <source>Renamed in version</source>
         <translation>Umbenannt in Version</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="706"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1589"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="718"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1702"/>
         <source>Superseded by</source>
         <translation>Ersetzt durch</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1288"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1407"/>
         <source>Category</source>
         <translation>Kategorie</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1289"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1408"/>
         <source>Context</source>
         <translation>Kontext</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1290"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1409"/>
         <source>Requirements</source>
         <translation>Voraussetzungen</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1464"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1606"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1577"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1719"/>
         <source>Syntax</source>
         <translation>Syntax</translation>
     </message>
     <message>
-        <location filename="Helpers/IniHighlighter.cpp" line="1465"/>
-        <location filename="Helpers/IniHighlighter.cpp" line="1602"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1578"/>
+        <location filename="Helpers/IniHighlighter.cpp" line="1715"/>
         <source>Description</source>
         <translation>Beschreibung</translation>
     </message>
@@ -1289,6 +1349,39 @@ Sie können %USER% verwenden, um für jeden Benutzer die Sandbox in einem eigene
         <location filename="Wizards/NewBoxWizard.cpp" line="802"/>
         <source>Using a custom Sandboxie Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
         <translation>Die Verwendung eines eigenen Sandboxie Tokens erlaubt die bessere Isolation individueller Sandboxen zu einander und es zeigt in der Nutzerspalte des Taskmanagers den Namen der Box an zu der ein Prozess gehört. Einige Drittanbietersicherheitslösungen könnten jedoch Probleme mit den eigenen Tokens haben.</translation>
+    </message>
+</context>
+<context>
+    <name>CItemChooser</name>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="7"/>
+        <source>Item Chooser</source>
+        <translation>Elementauswahl</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="12"/>
+        <source>Select items that will be used.</source>
+        <translation>Wählen Sie die zu verwendende Elemente aus.</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="29"/>
+        <source>Add &gt;</source>
+        <translation>Hinzufügen &gt;</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="33"/>
+        <source>&lt; Remove</source>
+        <translation>&lt; Entfernen</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="47"/>
+        <source>Move Up</source>
+        <translation>Nach oben verschieben</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/ItemChooser.cpp" line="51"/>
+        <source>Move Down</source>
+        <translation>Nach unten verschieben</translation>
     </message>
 </context>
 <context>
@@ -1979,12 +2072,12 @@ Hinweis: Die Updateprüfung ist oft zeitversetzt zu den letzten GitHub-Veröffen
         <translation>Einige Änderungen wurden bisher nicht gespeichert, möchten Sie dieses Einstellungsfenster wirklich schließen?</translation>
     </message>
     <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1471"/>
+        <location filename="Windows/OptionsWindow.cpp" line="1473"/>
         <source>Autocomplete Consent Required</source>
         <translation>Zustimmung für automatische Vervollständigung erforderlich</translation>
     </message>
     <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1472"/>
+        <location filename="Windows/OptionsWindow.cpp" line="1474"/>
         <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
 Do you wish to enable autocomplete?</source>
@@ -2517,6 +2610,24 @@ Bitte wählen Sie einen Ordner, der diese Datei enthält.</translation>
         <location filename="Windows/OptionsNetwork.cpp" line="745"/>
         <source>Block</source>
         <translation>Blockieren</translation>
+    </message>
+</context>
+<context>
+    <name>CPathEdit</name>
+    <message>
+        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="31"/>
+        <source>Any File (*.*)</source>
+        <translation>Alle Dateien (*.*)</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="37"/>
+        <source>Select Directory</source>
+        <translation>Ordner auswählen</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="38"/>
+        <source>Browse</source>
+        <translation>Durchsuchen</translation>
     </message>
 </context>
 <context>
@@ -5613,32 +5724,32 @@ This file is part of Sandboxie and all change done to it will be reverted next t
         <translation>Datenträger nicht eingesteckt</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2877"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2880"/>
         <source>This supporter certificate has expired, please &lt;a href=&quot;%1&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
         <translation>Dieses Unterstützerzertifikat ist abgelaufen, bitte &lt;a href=&quot;%1&quot;&gt;holen Sie sich ein erneuertes Zertifikat&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2957"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2960"/>
         <source>&lt;b&gt;You have used %1/%2 evaluation certificates. No more free certificates can be generated.&lt;/b&gt;</source>
         <translation>&lt;b&gt;Sie haben %1/%2 Evaluationszertifikate verwendet. Es können keine weiteren kostenlosen Zertifikate erstellt werden.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2959"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2962"/>
         <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Get a free evaluation certificate&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
         <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Erhalten Sie ein kostenloses Evaluationszertifikat&lt;/a&gt; und nutzen Sie alle Premium-Funktionen für %1 Tage.&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2890"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2893"/>
         <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;%2&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
         <translation>Dieses Unterstützerzertifikat wird &lt;font color=&apos;red&apos;&gt;in %1 Tagen ablaufen&lt;/font&gt;, bitte &lt;a href=&quot;%2&quot;&gt;holen Sie sich ein erneuertes Zertifikat&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2543"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2546"/>
         <source>Autocomplete Consent Required</source>
         <translation>Zustimmung für automatische Vervollständigung erforderlich</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2544"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2547"/>
         <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
 
 Do you wish to enable autocomplete?</source>
@@ -5647,189 +5758,189 @@ Do you wish to enable autocomplete?</source>
 Möchten Sie die automatische Vervollständigung aktivieren?</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2790"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2793"/>
         <source>Click to reveal</source>
         <translation>Klicken zum Anzeigen</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2791"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2794"/>
         <source>Click to hide</source>
         <translation>Klicken zum Verbergen</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2882"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2885"/>
         <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database.</source>
         <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;In der aktuellen Version bleiben die Plus-Funktionen aktiviert&lt;/font&gt;, aber Sie haben keinen Zugang mehr zu den Sandboxie-Live-Diensten, einschließlich Kompatibilitäts-Updates und der Online-Problemlösungsdatenbank.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2925"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2928"/>
         <source>Expires in: %1 days</source>
         <translation>Läuft ab in: %1 Tagen</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2929"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2932"/>
         <source>; eligible Patreons can always &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;obtain an updated certificate&lt;/a&gt; from xanasoft.com</source>
         <translation>; berechtigte Patreons können über xanasoft.com stets &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;ein erneuertes Zertifikat erhalten&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2941"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
         <source>Options: %1</source>
         <translation>Optionen: %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2947"/>
         <source>Security/Privacy Enhanced &amp; App Boxes (SBox): %1</source>
         <translation>Sicherheit/Privatsphäre verbesserte &amp; App-Boxen (SBox): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2945"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2946"/>
         <location filename="Windows/SettingsWindow.cpp" line="2947"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2948"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2949"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2950"/>
         <source>Enabled</source>
         <translation>Aktiviert</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2944"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2945"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2946"/>
         <location filename="Windows/SettingsWindow.cpp" line="2947"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2948"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2949"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2950"/>
         <source>Disabled</source>
         <translation>Deaktiviert</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2945"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2948"/>
         <source>Encrypted Sandboxes (EBox): %1</source>
         <translation>Verschlüsselte Sandboxen (EBox): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2946"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2949"/>
         <source>Network Interception (NetI): %1</source>
         <translation>Netzwerküberwachung (NetI): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2947"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2950"/>
         <source>Sandboxie Desktop (Desk): %1</source>
         <translation>Sandboxie Desktop (Desk): %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2978"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2981"/>
         <source>This does not look like a Sandboxie-Plus Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
         <translation>Dies sieht nicht nach einer Sandboxie-Plus Seriennummer aus.&lt;br /&gt;Wenn Sie versucht haben, den Update-Schlüssel oder die Signatur von einem Zertifikat einzugeben, ist das nicht korrekt. Bitte geben Sie stattdessen das gesamte Zertifikat in das Textfeld oben ein.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2985"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2988"/>
         <source>You are attempting to use a feature Upgrade-Key without having entered a pre-existing supporter certificate. Please note that this type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b) requires you to have a pre-existing valid supporter certificate; it is useless without one.&lt;br /&gt;If you want to use the advanced features, you need to obtain both a standard certificate and the feature upgrade key to unlock advanced functionality.</source>
         <translation>Sie versuchen einen Funktions-Upgrade-Schlüssel zu verwenden, ohne ein bereits vorhandenes Unterstützerzertifikat eingegeben zu haben. Bitte beachten Sie, dass Sie für diese Art von Schlüssel (&lt;b&gt;wie auf der Website deutlich in Fettschrift angegeben&lt;/b&gt;) ein bereits vorhandenes gültiges Unterstützerzertifikat benötigen, da er ohne ein solches nutzlos ist.&lt;br /&gt;Wenn Sie die erweiterten Funktionen nutzen möchten, müssen Sie beides erwerben, ein Standardzertifikat und den Funktions-Upgrade-Schlüssel, um die erweiterte Funktionalität freizuschalten.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2991"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2994"/>
         <source>You are attempting to use a Renew-Key without having entered a pre-existing supporter certificate. Please note that this type of key (&lt;b&gt;as it is clearly stated in bold on the website&lt;/b) requires you to have a pre-existing valid supporter certificate; it is useless without one.</source>
         <translation>Sie versuchen einen Erneuerungsschlüssel zu verwenden, ohne ein bereits vorhandenes Unterstützerzertifikat eingegeben zu haben. Bitte beachten Sie, dass Sie für diese Art von Schlüssel (&lt;b&gt;wie auf der Website deutlich in Fettschrift angegeben&lt;/b&gt;) ein bereits vorhandenes gültiges Unterstützerzertifikat benötigen, da er ohne ein solches nutzlos ist.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2996"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2999"/>
         <source>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;If you have not read the product description and obtained this key by mistake, please contact us via email (provided on our website) to resolve this issue.&lt;/u&gt;</source>
         <translation>&lt;br /&gt;&lt;br /&gt;&lt;u&gt;Wenn Sie die Produktbeschreibung nicht gelesen haben und diesen Schlüssel versehentlich erworben haben, kontaktieren Sie uns bitte per E-Mail (auf unserer Website angegeben), um dieses Problem zu lösen.&lt;/u&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3027"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3030"/>
         <source>Sandboxie-Plus - Get EVALUATION Certificate</source>
         <translation>Sandboxie-Plus - EVALUATIONSzertifikat erhalten</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3027"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3030"/>
         <source>Please enter your email address to receive a free %1-day evaluation certificate, which will be issued to %2 and locked to the current hardware.
 You can request up to %3 evaluation certificates for each unique hardware ID.</source>
         <translation>Bitte geben Sie Ihre E-Mail-Adresse ein, um ein kostenloses %1-Tage-Evaluationszertifikat zu erhalten, welches auf %2 ausgestellt und an die aktuelle Hardware gebunden wird.
 Sie können bis zu %3 Evaluationszertifikate für jede eindeutige Hardware-ID anfordern.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3053"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3056"/>
         <source>Error retrieving certificate: %1</source>
         <translation>Fehler beim Abrufen des Zertifikats: %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3053"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3056"/>
         <source>Unknown Error (probably a network issue)</source>
         <translation>Unbekannter Fehler (wahrscheinlich ein Netzwerkproblem)</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3108"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3111"/>
         <source>Contributor</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Contributor</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3110"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3113"/>
         <source>Eternal</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Eternal</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3112"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3115"/>
         <source>Developer</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Developer</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3114"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3117"/>
         <source>Business</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Business</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3116"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3119"/>
         <source>Personal</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Personal</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3118"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3121"/>
         <source>Great Patreon</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Great Patreon</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3120"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3123"/>
         <source>Patreon</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Patreon</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3122"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3125"/>
         <source>Family</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Family</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3126"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3129"/>
         <source>Evaluation</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Evaluation</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3128"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3131"/>
         <source>Type %1</source>
         <translation>Typ %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3158"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3161"/>
         <source>Advanced</source>
         <translation>Erweitert</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3160"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3163"/>
         <source>Advanced (L)</source>
         <translation>Erweitert (L)</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3162"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3165"/>
         <source>Max Level</source>
         <translation>Maximale Stufe</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3164"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3167"/>
         <source>Level %1</source>
         <translation>Stufe %1</translation>
     </message>
@@ -5844,17 +5955,17 @@ Sie können bis zu %3 Evaluationszertifikate für jede eindeutige Hardware-ID an
         <translation>Unterstützerzertifikat notwendig zur Automatisierung</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3203"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3206"/>
         <source>This certificate is unfortunately not valid for the current build, you need to get a new certificate or downgrade to an earlier build.</source>
         <translation>Dieses Zertifikat ist leider nicht für die aktuelle Version gültig. Sie müssen ein neues Zertifikat erwerben oder auf eine frühere Version zurückgehen.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3205"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3208"/>
         <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database.</source>
         <translation>Obwohl dieses Zertifikat abgelaufen ist, bleiben die Plus-Funktionen der aktuell installierten Version aktiviert. Sie haben jedoch keinen Zugang mehr zu den Sandboxie-Live-Diensten, einschließlich Kompatibilitäts-Updates und der Onlineproblemlösungsdatenbank.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3207"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3210"/>
         <source>This certificate has unfortunately expired, you need to get a new certificate.</source>
         <translation>Dieses Zertifikat ist leider abgelaufen, Sie müssen ein neues Zertifikat erwerben.</translation>
     </message>
@@ -5865,12 +5976,12 @@ Sie können bis zu %3 Evaluationszertifikate für jede eindeutige Hardware-ID an
         <translation>Sandgeboxter Internetbrowser</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2880"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2883"/>
         <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus features will be disabled in %1 days.&lt;/font&gt;</source>
         <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus-Funktionen werden in %1 Tagen deaktiviert.&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2884"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2887"/>
         <source>&lt;br /&gt;Plus features are no longer enabled.</source>
         <translation>&lt;br /&gt;Plus-Funktionen sind nicht länger aktiviert.</translation>
     </message>
@@ -5880,7 +5991,7 @@ Sie können bis zu %3 Evaluationszertifikate für jede eindeutige Hardware-ID an
         <translation>Starte &amp;Nicht-Sandgeboxt</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3186"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3189"/>
         <source>This does not look like a certificate. Please enter the entire certificate, not just a portion of it.</source>
         <translation>Dies scheint kein Zertifikat zu sein. Bitte geben Sie das ganze Zertifikat ein, nicht nur einen Teil davon.</translation>
     </message>
@@ -5991,40 +6102,40 @@ Sie können bis zu %3 Evaluationszertifikate für jede eindeutige Hardware-ID an
         <translation>Bitte ein Kommando eingeben</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2960"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2963"/>
         <source>You can request a free %1-day evaluation certificate up to %2 times per hardware ID.</source>
         <translation>Sie können ein kostenloses %1-Tage-Evaluationszertifikat bis zu %2-mal pro Hardware-ID anfordern.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2793"/>
-        <location filename="Windows/SettingsWindow.cpp" line="2802"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2796"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2805"/>
         <source>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</source>
         <translation>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2798"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2801"/>
         <source>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</source>
         <translation>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(Kopieren)&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2811"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2814"/>
         <source>Sandboxie-Plus Version: %1</source>
         <translation>Sandboxie-Plus Version: %1</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2927"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2930"/>
         <source>Expired: %1 days ago</source>
         <translation>Abgelaufen: vor %1 Tagen</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3011"/>
-        <location filename="Windows/SettingsWindow.cpp" line="3039"/>
-        <location filename="Windows/SettingsWindow.cpp" line="3268"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3014"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3042"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3271"/>
         <source>Retrieving certificate...</source>
         <translation>Rufe Zertifikat ab...</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3124"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3127"/>
         <source>Home</source>
         <translatorcomment>Certificate type: a translation could lead to confusion.</translatorcomment>
         <translation>Home</translation>
@@ -6040,29 +6151,29 @@ Sie können bis zu %3 Evaluationszertifikate für jede eindeutige Hardware-ID an
         <translation>Setze Öffne Pfad in Sandbox</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3211"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3214"/>
         <source>The evaluation certificate has been successfully applied. Enjoy your free trial!</source>
         <translation>Das Evaluationszertifikat wurde erfolgreich angewendet. Viel Spaß beim kostenlosen Ausprobieren!</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3214"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3217"/>
         <source>Thank you for supporting the development of Sandboxie-Plus.</source>
         <translation>Danke Ihnen für die Unterstützung der Entwicklung von Sandboxie-Plus.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3216"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3219"/>
         <source>
 This is a temporary Patreon certificate, valid for 3 months. Once it nears expiration, you can obtain a new certificate online that will be valid for the full term.</source>
         <translation>
 Dies ist ein temporäres Patreon-Zertifikat, gültig für 3 Monate. Sobald es sich dem Ablaufdatum nähert, können Sie online ein neues Zertifikat erhalten, das für die gesamte Laufzeit gültig sein wird.</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3254"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3257"/>
         <source>A mandatory security update for your Sandboxie-Plus Supporter Certificate is required. Would you like to download the updated certificate now?</source>
         <translation>Für Ihr Sandboxie-Plus Unterstützerzertifikat ist zwingend ein Sicherheitsupdate erforderlich. Möchten Sie das aktualisierte Zertifikat jetzt herunterladen?</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="3255"/>
+        <location filename="Windows/SettingsWindow.cpp" line="3258"/>
         <source>Auto update in future</source>
         <translation>Zukünftig automatisch aktualisieren</translation>
     </message>
@@ -6173,7 +6284,7 @@ Dies ist ein temporäres Patreon-Zertifikat, gültig für 3 Monate. Sobald es si
         <translation>Möchten Sie wirklich die ausgewählte(n) lokalen Vorlage(n) löschen?</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="2719"/>
+        <location filename="Windows/SettingsWindow.cpp" line="2722"/>
         <source>%1 (Current)</source>
         <translation>%1 (Aktuell)</translation>
     </message>
@@ -8491,36 +8602,42 @@ Um einen Prozess anzugeben verwenden Sie &apos;$:program.exe&apos; als Pfad.</tr
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6041"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         Displays detailed tooltips when hovering over settings.&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
         ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Full details (versions, syntax, description and more)&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
         &lt;br&gt;
-        &lt;b&gt;Syntax helpers:&lt;/b&gt;&lt;br&gt;
-        • Pipe (|) separates possible values&lt;br&gt;
-        • Square brackets ([]) indicate default value or optional values&lt;br&gt;
+        &lt;b&gt;Syntax Helpers:&lt;/b&gt;&lt;br&gt;
+        • &lt;i&gt;Pipe&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Separates alternative values&lt;br&gt;
+        • &lt;i&gt;Square brackets&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Denote optional parameters&lt;br&gt;
+        • &lt;i&gt;Parentheses&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Enclose valid options&lt;br&gt;
+        • &lt;i&gt;Angle brackets&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Indicate replaceable placeholders&lt;br&gt;
+        • &lt;i&gt;Bold values&lt;/i&gt; — Represent defaults (can be omitted)&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         Zeigt detaillierte Tooltips an, wenn der Mauszeiger über Einstellungen verweilt.&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Arten:&lt;/b&gt;&lt;br&gt;
         ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Angehakt&lt;/span&gt;: Alle Details (Versionen, Syntax, Beschreibung und mehr)&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur wesentliche Informationen&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur wesentliche Informationen&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Syntax-Hilfen:&lt;/b&gt;&lt;br&gt;
-        • Pipe (|) trennt mögliche Werte&lt;br&gt;
-        • Eckige Klammern ([]) kennzeichnen Standardwerte oder optionale Werte&lt;br&gt;
+        • &lt;i&gt;Senkrechter Strich&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Trennt alternative Werte&lt;br&gt;
+        • &lt;i&gt;Eckige Klammern&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Kennzeichnen optionale Parameter&lt;br&gt;
+        • &lt;i&gt;Runde Klammern&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Umschließen gültige Optionen&lt;br&gt;
+        • &lt;i&gt;Spitze Klammern&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Kennzeichnen ersetzbare Platzhalter&lt;br&gt;
+        • &lt;i&gt;Werte in Fettschrift&lt;/i&gt; — Stellen Standardwerte dar (können weggelassen werden)&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6124"/>
+        <location filename="Forms/OptionsWindow.ui" line="6129"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         &lt;b&gt;Auto-Completion &amp; Case Correction&lt;/b&gt;&lt;br&gt;
         • &lt;u&gt;Auto-complete&lt;/u&gt;: Suggestions popup at 3+ chars&lt;br&gt;
         &amp;nbsp;&amp;nbsp;→ Select from popup to &lt;u&gt;auto-apply&lt;/u&gt; with correct case&lt;br&gt;
@@ -8530,17 +8647,18 @@ Um einen Prozess anzugeben verwenden Sie &apos;$:program.exe&apos; als Pfad.</tr
         &amp;nbsp;&amp;nbsp;→ &lt;code&gt;Ctrl+R&lt;/code&gt; prompt appears for case correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
-        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + auto-correction&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + Case-correction&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Navigation:&lt;/b&gt;&lt;br&gt;
-        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt; in popup&lt;br&gt;
-        • &lt;code&gt;Enter/Return&lt;/code&gt; to select highlighted item&lt;br&gt;
-        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force suggestions&lt;br&gt;
+        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt;: Move through popup&lt;br&gt;
+        • &lt;code&gt;Enter/Return&lt;/code&gt;: Confirm selection&lt;br&gt;
+        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force-open suggestions&lt;br&gt;
+       • &lt;code&gt;Tab&lt;/code&gt;: Apply first or confirm selection&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         &lt;b&gt;Automatische Vervollständigung &amp; Schreikorrektur&lt;/b&gt;&lt;br&gt;
         • &lt;u&gt;Automatische Vervollständigung&lt;/u&gt;: Popup mit Vorschlägen ab 3 Zeichen&lt;br&gt;
         &amp;nbsp;&amp;nbsp;→ Aus Popup auswählen, um mit der korrekten Schreibung &lt;u&gt;automatisch einzusetzen&lt;/u&gt;&lt;br&gt;
@@ -8550,57 +8668,62 @@ Um einen Prozess anzugeben verwenden Sie &apos;$:program.exe&apos; als Pfad.</tr
         &amp;nbsp;&amp;nbsp;→ &lt;code&gt;Strg+R&lt;/code&gt; Aufforderung zur Schreikorrektur erscheint&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Arten:&lt;/b&gt;&lt;br&gt;
-        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Angehakt&lt;/span&gt;: Automatische Vervollständigung + automatische Schreikorrektur&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur manuelle &lt;code&gt;Strg+R&lt;/code&gt; Schreikorrektur&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Angehakt&lt;/span&gt;: Automatische Vervollständigung + Schreikorrektur&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur manuelle &lt;code&gt;Strg+R&lt;/code&gt; Schreikorrektur&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Navigation:&lt;/b&gt;&lt;br&gt;
-        • &lt;code&gt;↑/↓/Bild↑/Bild↓&lt;/code&gt; im Popup&lt;br&gt;
-        • &lt;code&gt;Enter/Return&lt;/code&gt;, um das markierte Element auszuwählen&lt;br&gt;
-        • &lt;code&gt;Strg+Leertaste&lt;/code&gt;: Erzwinge Vorschläge&lt;br&gt;
+        • &lt;code&gt;↑/↓/Bild↑/Bild↓&lt;/code&gt;: Durch Popup navigieren&lt;br&gt;
+        • &lt;code&gt;Eingabetaste&lt;/code&gt;: Auswahl bestätigen&lt;br&gt;
+        • &lt;code&gt;Strg+Leertaste&lt;/code&gt;: Vorschläge erzwingen&lt;br&gt;
+        • &lt;code&gt;Tabulatortaste&lt;/code&gt;: Zuerst anwenden oder Auswahl bestätigen&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6146"/>
+        <location filename="Forms/OptionsWindow.ui" line="6152"/>
         <source>Complete</source>
         <translation>Vervollständigen</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6056"/>
+        <location filename="Forms/OptionsWindow.ui" line="6059"/>
         <source>Tooltips</source>
         <translation>Tooltips</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6066"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
-&lt;p&gt;When enabled, key names will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed key (no longer available)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future key (unavailable)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown key&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known key&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
-&lt;p&gt;Wenn diese Option aktiviert ist, werden die Schlüsselnamen basierend auf der INI-Datei überprüft und hervorgehoben.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Schwarz auf Gelb, kursiv&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Umbenannter Schlüssel (alter Name - ungültig)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;Weiß auf Schwarz, durchgestrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Schlüssel entfernt (nicht mehr verfügbar)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dunkelblaugrün auf Weiß&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Zukünftiger Schlüssel (nicht verfügbar)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Rot unterstrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Ungültiger/unbekannter Schlüssel&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dunkelrot/Hellrot&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Gültiger/bekannter Schlüssel&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Hinweis&lt;/span&gt;: Nur gültige/bekannte Schlüssel sind in dieser Version funktionsfähig. Allerdings wird keine globale oder boxspezifische Validierung durchgeführt. Manche Schlüssel können daher gültig erscheinen, funktionieren aber möglicherweise nicht in jedem Kontext.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="Forms/OptionsWindow.ui" line="6069"/>
+        <source>&lt;html&gt;
+    &lt;body&gt;
+        &lt;p&gt;When enabled, settings will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
+        &lt;br/&gt;
+        &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed setting (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed setting (no longer available)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future setting (unavailable)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown setting&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known setting&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known settings are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</source>
+        <translation>&lt;html&gt;
+    &lt;body&gt;
+        &lt;p&gt;Wenn diese Option aktiviert ist, werden die Einstellungen basierend auf der INI-Datei überprüft und hervorgehoben.&lt;/p&gt;
+        &lt;br/&gt;
+        &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Schwarz auf Gelb, kursiv&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Umbenannte Einstellung (alter Name - ungültig)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;Weiß auf Schwarz, durchgestrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Entfernte Einstellung (nicht mehr verfügbar)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dunkelblaugrün auf Weiß&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Zukünftige Einstellung (noch nicht verfügbar)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Rot unterstrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Ungültige/unbekannte Einstellung&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dunkelrot/Hellrot&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Gültige/bekannte Einstellung&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Hinweis&lt;/span&gt;: Nur gültige/bekannte Einstellungen sind in dieser Version funktionsfähig. Allerdings wird keine globale oder boxspezifische Validierung durchgeführt. Manche Einstellungen können daher gültig erscheinen, funktionieren aber möglicherweise nicht in jedem Kontext.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6081"/>
+        <location filename="Forms/OptionsWindow.ui" line="6086"/>
         <source>Validate</source>
         <translation>Validieren</translation>
     </message>
@@ -9296,12 +9419,12 @@ Bitte beachten Sie, dass diese Werte aktuell nutzerspezifisch sind und global f�
         <translation>INI Sektion bearbeiten</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6091"/>
+        <location filename="Forms/OptionsWindow.ui" line="6096"/>
         <source>Edit ini</source>
         <translation>INI bearbeiten</translation>
     </message>
     <message>
-        <location filename="Forms/OptionsWindow.ui" line="6104"/>
+        <location filename="Forms/OptionsWindow.ui" line="6109"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
@@ -9333,6 +9456,11 @@ Bitte beachten Sie, dass diese Werte aktuell nutzerspezifisch sind und global f�
         <location filename="Views/SbieView.cpp" line="1825"/>
         <source>Drive %1</source>
         <translation>Laufwerk %1</translation>
+    </message>
+    <message>
+        <location filename="../MiscHelpers/Common/FlexError.h" line="21"/>
+        <source>Error</source>
+        <translation>Fehler</translation>
     </message>
 </context>
 <context>
@@ -9563,45 +9691,49 @@ Bitte beachten Sie, dass diese Werte aktuell nutzerspezifisch sind und global f�
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3118"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
-&lt;p&gt;When enabled, key names will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed key (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed key (no longer available)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future key (unavailable)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown key&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known key&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known keys are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body style=&quot;color: #333;&quot;&gt;
-&lt;p&gt;Wenn diese Option aktiviert ist, werden die Schlüsselnamen basierend auf der INI-Datei überprüft und hervorgehoben.&lt;/p&gt;
-&lt;br/&gt;
-&lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Schwarz auf Gelb, kursiv&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Umbenannter Schlüssel (alter Name - ungültig)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;Weiß auf Schwarz, durchgestrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Schlüssel entfernt (nicht mehr verfügbar)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dunkelblaugrün auf Weiß&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Zukünftiger Schlüssel (nicht verfügbar)&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Rot unterstrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Ungültiger/unbekannter Schlüssel&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dunkelrot/Hellrot&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Gültiger/bekannter Schlüssel&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Hinweis&lt;/span&gt;: Nur gültige/bekannte Schlüssel sind in dieser Version funktionsfähig. Allerdings wird keine globale oder boxspezifische Validierung durchgeführt. Manche Schlüssel können daher gültig erscheinen, funktionieren aber möglicherweise nicht in jedem Kontext.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;
+    &lt;body&gt;
+        &lt;p&gt;When enabled, settings will be checked and highlighted based on the INI file. Turn off to disable checking and highlighting.&lt;/p&gt;
+        &lt;br/&gt;
+        &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Black Text, Yellow BG, Italic&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Renamed setting (old name - invalid)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;White Text, Black BG, Strikeout&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Removed setting (no longer available)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dark Cyan Text, White BG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Future setting (unavailable)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Red Spell Check Underline&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Invalid/unknown setting&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dark/Light Red Text&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Valid/known setting&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Note&lt;/span&gt;: Only valid/known settings are functional in this version. However, no global or per-box validation is performed. Some settings may appear valid but might not work in all contexts.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</source>
+        <translation>&lt;html&gt;
+    &lt;body&gt;
+        &lt;p&gt;Wenn diese Option aktiviert ist, werden die Einstellungen basierend auf der INI-Datei überprüft und hervorgehoben.&lt;/p&gt;
+        &lt;br/&gt;
+        &lt;table cellspacing=&quot;3&quot; cellpadding=&quot;0&quot;&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;font-style: italic; color:#000000; background-color:#ffff00;&quot;&gt;Schwarz auf Gelb, kursiv&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Umbenannte Einstellung (alter Name - ungültig)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: line-through; color:#ffffff; background-color:#000000;&quot;&gt;Weiß auf Schwarz, durchgestrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Entfernte Einstellung (nicht mehr verfügbar)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#008b8b; background-color:#ffffff;&quot;&gt;Dunkelblaugrün auf Weiß&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Zukünftige Einstellung (noch nicht verfügbar)&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;text-decoration: underline; color: #ff0000;&quot;&gt;Rot unterstrichen&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Ungültige/unbekannte Einstellung&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td style=&quot;white-space: nowrap;&quot;&gt;- &lt;span style=&quot;color:#c03224;&quot;&gt;Dunkelrot/Hellrot&lt;/span&gt;&lt;/td&gt;&lt;td&gt;: Gültige/bekannte Einstellung&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;p&gt;&lt;span style=&quot;font-weight:600;&quot;&gt;Hinweis&lt;/span&gt;: Nur gültige/bekannte Einstellungen sind in dieser Version funktionsfähig. Allerdings wird keine globale oder boxspezifische Validierung durchgeführt. Manche Einstellungen können daher gültig erscheinen, funktionieren aber möglicherweise nicht in jedem Kontext.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3146"/>
+        <location filename="Forms/SettingsWindow.ui" line="3148"/>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3153"/>
+        <location filename="Forms/SettingsWindow.ui" line="3155"/>
         <source>Edit ini</source>
         <translation>INI bearbeiten</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3166"/>
+        <location filename="Forms/SettingsWindow.ui" line="3168"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
@@ -10571,38 +10703,44 @@ Anders als der Vorschaukanal, enthält es keine ungetesteten, möglicherweise fe
         <translation>Zukünftig nicht auf Softwarekompatibilität prüfen</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3186"/>
+        <location filename="Forms/SettingsWindow.ui" line="3188"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         Displays detailed tooltips when hovering over settings.&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
         ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Full details (versions, syntax, description and more)&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Essential information only&lt;br&gt;
         &lt;br&gt;
-        &lt;b&gt;Syntax helpers:&lt;/b&gt;&lt;br&gt;
-        • Pipe (|) separates possible values&lt;br&gt;
-        • Square brackets ([]) indicate default value or optional values&lt;br&gt;
+        &lt;b&gt;Syntax Helpers:&lt;/b&gt;&lt;br&gt;
+        • &lt;i&gt;Pipe&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Separates alternative values&lt;br&gt;
+        • &lt;i&gt;Square brackets&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Denote optional parameters&lt;br&gt;
+        • &lt;i&gt;Parentheses&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Enclose valid options&lt;br&gt;
+        • &lt;i&gt;Angle brackets&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Indicate replaceable placeholders&lt;br&gt;
+        • &lt;i&gt;Bold values&lt;/i&gt; — Represent defaults (can be omitted)&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         Zeigt detaillierte Tooltips an, wenn der Mauszeiger über Einstellungen verweilt.&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Arten:&lt;/b&gt;&lt;br&gt;
         ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Angehakt&lt;/span&gt;: Alle Details (Versionen, Syntax, Beschreibung und mehr)&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur wesentliche Informationen&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur wesentliche Informationen&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Syntax-Hilfen:&lt;/b&gt;&lt;br&gt;
-        • Pipe (|) trennt mögliche Werte&lt;br&gt;
-        • Eckige Klammern ([]) kennzeichnen Standardwerte oder optionale Werte&lt;br&gt;
+        • &lt;i&gt;Senkrechter Strich&lt;/i&gt; &lt;code&gt;|&lt;/code&gt; — Trennt alternative Werte&lt;br&gt;
+        • &lt;i&gt;Eckige Klammern&lt;/i&gt; &lt;code&gt;[ ]&lt;/code&gt; — Kennzeichnen optionale Parameter&lt;br&gt;
+        • &lt;i&gt;Runde Klammern&lt;/i&gt; &lt;code&gt;( )&lt;/code&gt; — Umschließen gültige Optionen&lt;br&gt;
+        • &lt;i&gt;Spitze Klammern&lt;/i&gt; &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; — Kennzeichnen ersetzbare Platzhalter&lt;br&gt;
+        • &lt;i&gt;Werte in Fettschrift&lt;/i&gt; — Stellen Standardwerte dar (können weggelassen werden)&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3218"/>
+        <location filename="Forms/SettingsWindow.ui" line="3223"/>
         <source>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         &lt;b&gt;Auto-Completion &amp; Case Correction&lt;/b&gt;&lt;br&gt;
         • &lt;u&gt;Auto-complete&lt;/u&gt;: Suggestions popup at 3+ chars&lt;br&gt;
         &amp;nbsp;&amp;nbsp;→ Select from popup to &lt;u&gt;auto-apply&lt;/u&gt; with correct case&lt;br&gt;
@@ -10612,17 +10750,18 @@ Anders als der Vorschaukanal, enthält es keine ungetesteten, möglicherweise fe
         &amp;nbsp;&amp;nbsp;→ &lt;code&gt;Ctrl+R&lt;/code&gt; prompt appears for case correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Modes:&lt;/b&gt;&lt;br&gt;
-        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + auto-correction&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Checked&lt;/span&gt;: Auto-complete + Case-correction&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Partially Checked&lt;/span&gt;: Only manual &lt;code&gt;Ctrl+R&lt;/code&gt; correction&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Navigation:&lt;/b&gt;&lt;br&gt;
-        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt; in popup&lt;br&gt;
-        • &lt;code&gt;Enter/Return&lt;/code&gt; to select highlighted item&lt;br&gt;
-        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force suggestions&lt;br&gt;
+        • &lt;code&gt;↑/↓/PgUp/PgDn&lt;/code&gt;: Move through popup&lt;br&gt;
+        • &lt;code&gt;Enter/Return&lt;/code&gt;: Confirm selection&lt;br&gt;
+        • &lt;code&gt;Ctrl+Space&lt;/code&gt;: Force-open suggestions&lt;br&gt;
+       • &lt;code&gt;Tab&lt;/code&gt;: Apply first or confirm selection&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</source>
         <translation>&lt;html&gt;
-    &lt;body style=&quot;color: #333;&quot;&gt;
+    &lt;body&gt;
         &lt;b&gt;Automatische Vervollständigung &amp; Schreikorrektur&lt;/b&gt;&lt;br&gt;
         • &lt;u&gt;Automatische Vervollständigung&lt;/u&gt;: Popup mit Vorschlägen ab 3 Zeichen&lt;br&gt;
         &amp;nbsp;&amp;nbsp;→ Aus Popup auswählen, um mit der korrekten Schreibung &lt;u&gt;automatisch einzusetzen&lt;/u&gt;&lt;br&gt;
@@ -10632,28 +10771,29 @@ Anders als der Vorschaukanal, enthält es keine ungetesteten, möglicherweise fe
         &amp;nbsp;&amp;nbsp;→ &lt;code&gt;Strg+R&lt;/code&gt; Aufforderung zur Schreikorrektur erscheint&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Arten:&lt;/b&gt;&lt;br&gt;
-        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Angehakt&lt;/span&gt;: Automatische Vervollständigung + automatische Schreikorrektur&lt;br&gt;
-        ◐ &lt;span style=&quot;color: #FF8000;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur manuelle &lt;code&gt;Strg+R&lt;/code&gt; Schreikorrektur&lt;br&gt;
+        ✓ &lt;span style=&quot;color: #009900;&quot;&gt;Angehakt&lt;/span&gt;: Automatische Vervollständigung + Schreikorrektur&lt;br&gt;
+        ◐ &lt;span style=&quot;color: #BE4C00;&quot;&gt;Teilweise angehakt&lt;/span&gt;: Nur manuelle &lt;code&gt;Strg+R&lt;/code&gt; Schreikorrektur&lt;br&gt;
         &lt;br&gt;
         &lt;b&gt;Navigation:&lt;/b&gt;&lt;br&gt;
-        • &lt;code&gt;↑/↓/Bild↑/Bild↓&lt;/code&gt; im Popup&lt;br&gt;
-        • &lt;code&gt;Enter/Return&lt;/code&gt;, um das markierte Element auszuwählen&lt;br&gt;
-        • &lt;code&gt;Strg+Leertaste&lt;/code&gt;: Erzwinge Vorschläge&lt;br&gt;
+        • &lt;code&gt;↑/↓/Bild↑/Bild↓&lt;/code&gt;: Durch Popup navigieren&lt;br&gt;
+        • &lt;code&gt;Eingabetaste&lt;/code&gt;: Auswahl bestätigen&lt;br&gt;
+        • &lt;code&gt;Strg+Leertaste&lt;/code&gt;: Vorschläge erzwingen&lt;br&gt;
+        • &lt;code&gt;Tabulatortaste&lt;/code&gt;: Zuerst anwenden oder Auswahl bestätigen&lt;br&gt;
     &lt;/body&gt;
 &lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3240"/>
+        <location filename="Forms/SettingsWindow.ui" line="3246"/>
         <source>Complete</source>
         <translation>Vervollständigen</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3201"/>
+        <location filename="Forms/SettingsWindow.ui" line="3206"/>
         <source>Tooltips</source>
         <translation>Tooltips</translation>
     </message>
     <message>
-        <location filename="Forms/SettingsWindow.ui" line="3133"/>
+        <location filename="Forms/SettingsWindow.ui" line="3135"/>
         <source>Validate</source>
         <translation>Validieren</translation>
     </message>
