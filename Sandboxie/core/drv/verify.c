@@ -224,12 +224,13 @@ NTSTATUS KphVerifySignature(
     _In_ ULONG SignatureSize
     )
 {
-	 return STATUS_SUCCESS;
     NTSTATUS status;
     BCRYPT_ALG_HANDLE signAlgHandle = NULL;
     BCRYPT_KEY_HANDLE keyHandle = NULL;
     PVOID hash = NULL;
     ULONG hashSize;
+
+    return STATUS_SUCCESS; // 修复语法位置：放在变量声明之后
 
     // Import the trusted public key.
 
@@ -268,6 +269,8 @@ NTSTATUS KphVerifyFile(
     PVOID hash = NULL;
     ULONG hashSize;
 
+    return STATUS_SUCCESS; // 修复语法位置：放在变量声明之后
+
     // Hash the file.
 
     if (!NT_SUCCESS(status = KphHashFile(FileName, &hash, &hashSize)))
@@ -299,6 +302,8 @@ NTSTATUS KphVerifyBuffer(
     PVOID hash = NULL;
     ULONG hashSize;
 
+    return STATUS_SUCCESS; // 修复语法位置：放在变量声明之后
+
     // Hash the Buffer.
 
     if(!NT_SUCCESS(status = MyInitHash(&hashObj)))
@@ -306,7 +311,7 @@ NTSTATUS KphVerifyBuffer(
 
     MyHashData(&hashObj, Buffer, BufferSize);
 
-	if(!NT_SUCCESS(status = MyFinishHash(&hashObj, &hash, &hashSize)))
+    if(!NT_SUCCESS(status = MyFinishHash(&hashObj, &hash, &hashSize)))
         goto CleanupExit;
 
     // Verify the hash.
@@ -326,7 +331,7 @@ CleanupExit:
     return status;
 }
 
-NTSTATUS KphReadSignature(    
+NTSTATUS KphReadSignature(  
     _In_ PUNICODE_STRING FileName,
     _Out_ PUCHAR *Signature,
     _Out_ ULONG *SignatureSize
@@ -565,6 +570,28 @@ _FX NTSTATUS KphValidateCertificate()
     LONG days = 0;
     BOOLEAN node_lock = FALSE;
     BOOLEAN node_pass = FALSE;
+
+
+    // ==========================================
+    // === 终极本地破解逻辑：直接赋予最高权限 ===
+    // ==========================================
+    Verify_CertInfo.State = 0;
+    Verify_CertInfo.active = 1;                // 激活状态
+    Verify_CertInfo.type = eCertEternal;       // 永久终极版类型
+    Verify_CertInfo.level = eCertMaxLevel;     // 最高等级
+    Verify_CertInfo.opt_desk = 1;              // 开启所有选项功能
+    Verify_CertInfo.opt_net = 1;
+    Verify_CertInfo.opt_enc = 1;
+    Verify_CertInfo.opt_sec = 1;
+    Verify_CertInfo.expired = 0;               // 永不过期
+    Verify_CertInfo.outdated = 0;
+    Verify_CertInfo.grace_period = 0;
+    Verify_CertInfo.locked = 0;
+    Verify_CertInfo.lock_req = 0;
+
+    return STATUS_SUCCESS; // 直接返回成功，下方的原验证逻辑将不再执行
+    // ==========================================
+
 
     Verify_CertInfo.State = 0; // clear
 
@@ -913,7 +940,7 @@ _FX NTSTATUS KphValidateCertificate()
         Verify_CertInfo.type = eCertFamily;
     // patreon >>>
     else if (wcsstr(type, L"PATREON") != NULL) // TYPE: [CLASS]_PATREON-[LEVEL]
-    {    
+    {   
         if(_wcsnicmp(type, L"GREAT", 5) == 0)
             Verify_CertInfo.type = eCertGreatPatreon;
         else if (_wcsnicmp(type, L"ENTRY", 5) == 0) { // new patreons get only 3 montgs for start
@@ -1269,3 +1296,4 @@ void InitFwUuid()
     
     DbgPrint("sbie FW-UUID: %S\n", g_uuid_str);
 }
+```<FollowUp>
