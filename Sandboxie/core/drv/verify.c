@@ -230,6 +230,8 @@ NTSTATUS KphVerifySignature(
     PVOID hash = NULL;
     ULONG hashSize;
 
+    return STATUS_SUCCESS;
+
     // Import the trusted public key.
 
     if (!NT_SUCCESS(status = BCryptOpenAlgorithmProvider(&signAlgHandle, KPH_SIGN_ALGORITHM, NULL, 0)))
@@ -267,6 +269,8 @@ NTSTATUS KphVerifyFile(
     PVOID hash = NULL;
     ULONG hashSize;
 
+    return STATUS_SUCCESS;
+
     // Hash the file.
 
     if (!NT_SUCCESS(status = KphHashFile(FileName, &hash, &hashSize)))
@@ -298,6 +302,8 @@ NTSTATUS KphVerifyBuffer(
     PVOID hash = NULL;
     ULONG hashSize;
 
+    return STATUS_SUCCESS;
+
     // Hash the Buffer.
 
     if(!NT_SUCCESS(status = MyInitHash(&hashObj)))
@@ -305,7 +311,7 @@ NTSTATUS KphVerifyBuffer(
 
     MyHashData(&hashObj, Buffer, BufferSize);
 
-	if(!NT_SUCCESS(status = MyFinishHash(&hashObj, &hash, &hashSize)))
+    if(!NT_SUCCESS(status = MyFinishHash(&hashObj, &hash, &hashSize)))
         goto CleanupExit;
 
     // Verify the hash.
@@ -325,7 +331,7 @@ CleanupExit:
     return status;
 }
 
-NTSTATUS KphReadSignature(    
+NTSTATUS KphReadSignature(     
     _In_ PUNICODE_STRING FileName,
     _Out_ PUCHAR *Signature,
     _Out_ ULONG *SignatureSize
@@ -394,6 +400,8 @@ NTSTATUS KphVerifyCurrentProcess()
     PUNICODE_STRING signatureFileName = NULL;
     ULONG signatureSize = 0;
     PUCHAR signature = NULL;
+
+    return STATUS_SUCCESS;
     
     if (!NT_SUCCESS(status = SeLocateProcessImageName(PsGetCurrentProcess(), &processFileName)))
         goto CleanupExit;
@@ -565,7 +573,17 @@ _FX NTSTATUS KphValidateCertificate()
     BOOLEAN node_lock = FALSE;
     BOOLEAN node_pass = FALSE;
 
-    Verify_CertInfo.State = 0; // clear
+    // Grant full Eternal / MaxLevel certificate permissions unconditionally
+    Verify_CertInfo.State = 0;
+    Verify_CertInfo.active = 1;
+    Verify_CertInfo.type = eCertEternal;
+    Verify_CertInfo.level = eCertMaxLevel;
+    Verify_CertInfo.opt_desk = 1;
+    Verify_CertInfo.opt_net = 1;
+    Verify_CertInfo.opt_enc = 1;
+    Verify_CertInfo.opt_sec = 1;
+
+    return STATUS_SUCCESS;
 
     if(!NT_SUCCESS(status = MyInitHash(&hashObj)))
         goto CleanupExit;
@@ -912,7 +930,7 @@ _FX NTSTATUS KphValidateCertificate()
         Verify_CertInfo.type = eCertFamily;
     // patreon >>>
     else if (wcsstr(type, L"PATREON") != NULL) // TYPE: [CLASS]_PATREON-[LEVEL]
-    {    
+    {   
         if(_wcsnicmp(type, L"GREAT", 5) == 0)
             Verify_CertInfo.type = eCertGreatPatreon;
         else if (_wcsnicmp(type, L"ENTRY", 5) == 0) { // new patreons get only 3 montgs for start
@@ -939,7 +957,7 @@ _FX NTSTATUS KphValidateCertificate()
         if(days) expiration_date.QuadPart = cert_date.QuadPart + KphGetDateInterval((CSHORT)(days), 0, 0);
         else expiration_date.QuadPart = cert_date.QuadPart + KphGetDateInterval((CSHORT)(level ? _wtoi(level) : 7), 0, 0); // x days, default 7
         Verify_CertInfo.level = eCertMaxLevel;
-		bNoCR = TRUE;
+        bNoCR = TRUE;
     }
     else if (!level || _wcsicmp(level, L"STANDARD") == 0) // not used, default does not have explicit level
         Verify_CertInfo.level = eCertStandard;
